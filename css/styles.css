@@ -1,0 +1,63 @@
+body{
+padding: 2%;
+}
+
+.titulo{
+	padding: 4%;
+	border: 1px solid black;
+	border-radius: 5%;
+	text-align: center;
+}
+
+.principal{
+	border-radius: 5%;
+	width: 30%;
+	height: 60%;
+	border: 1px solid gray;
+	margin:7% auto;
+}
+
+.url{cursor:url(http://i.imgur.com/rINfV7f.gif), auto;}
+
+header{
+	margin: auto;
+	width: 40%;
+	height: 3%;
+	background-color: white;
+	margin-top: 17%;
+} 
+
+.menu{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+div#uno{
+	background-color: #585858;
+}
+div#dos{
+	background-color: #2E64FE;
+}
+div#tres{
+	background-color: #81BEF7;
+}
+div#cuatro{
+	background-color: #3BE47B;
+}
+
+div.icon-home{
+	text-align: center;
+}
+
+div.icon-facebook2{
+	text-align: center;
+}
+
+div.icon-twitter{
+	text-align: center;
+}
+
+div.icon-github2{
+	text-align: center;
+}
