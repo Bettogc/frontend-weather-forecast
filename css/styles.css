@@ -1,40 +1,41 @@
 body{
 	overflow-x:hidden;
 	padding: 2%;
+	background:url("../fondo.jpg");
 }
-div.modulo1{
+.modulo1{
 	width:400px;
 	height:300px;
 	float: right;
-	margin-top: -30%;
+	margin-top: -20%;
 }
-div.modulo3{
+.modulo3{
 	width:400px;
 	height:300px;
 	margin: auto;
 	background-color:#81DAF5;
 }
-div#cuadro1{
+.cuadro1{
 	width:300px;
 	margin: center;
 }
-div.cuadro2{
+.cuadro2{
 	width:200px;
-	margin: -200px 0px 0px 300px;
+	margin: -200px 300px;
 }
-h3#city{
+.city{
 	display:inline-block;
 	background-color: #FFBF00;
 	color:#fff;
 	text-decoration:none;
 	padding:5px 25px;
-	margin: 15px 0px 0px 45px;
+	margin: 15px 45px;
 }
 .button{
 	display: inline-block;
 	height:20px;
 	width:160px;
-	background-color: gray;
+	background-color: #2FADDB;
 	font-family:arial;
 	font-weight:bold;
 	color:#ffffff;
@@ -42,12 +43,14 @@ h3#city{
 	text-align:center;
 	cursor:pointer; cursor: hand
 }
+.centro{
+	border: 3px outset gray;
+	border-radius: 5%;
 
+}
 .principal{
-		border-radius: 5%;
 		width: 30%;
 		height: 10%;
-		border: 1px inset gray;
 		margin: auto;
 		text-align:center;
 }
@@ -57,37 +60,11 @@ h3#city{
 	text-align: center;
 }
 
-div#uno{
-	background-color: #585858;
-}
-div#dos{
-	background-color: #2E64FE;
-}
-div#tres{
-	background-color: #81BEF7;
-}
-div#cuatro{
-	background-color: #3BE47B;
-}
-
-div.icon-home{
-	text-align: center;
-}
-
-div.icon-facebook2{
-	text-align: center;
-}
-
-div.icon-twitter{
-	text-align: center;
-}
-
-div.icon-github2{
-	text-align: center;
-}
-
 .site{
 	font-family: cursive;
 	font-size: 20px;
 
+}
+.info8{
+	font-size: 15px;
 }

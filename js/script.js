@@ -43,6 +43,7 @@ $(document).ready(function(){
 							$(".info6").empty();
 							$(".info7").empty();
 							$(".info7").empty();
+							$(".info8").empty();
 							$(".cuadro2").empty();
 							$(".city").append(" " + location);
 							$(".info2").append(" Humidity: " + humidity);
